@@ -13,3 +13,9 @@
   /* height: 100vh; */
   /* background-color: aqua; */
 }
+
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+}
