@@ -1,8 +1,11 @@
-# React + Vite
+# Comic Strip Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website builds comic strips containing 10 images using Dashtoon's text-to-image api.
 
-Currently, two official plugins are available:
+## How to Use?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Simply select the tile you want to generate image for, and then enter the prompt for the image. You can simultaneously generate images for multiple tabs.
+
+Technologies Used - Js, React, Css
+
+Deployed At - https://comic-strip-generator.netlify.app/
