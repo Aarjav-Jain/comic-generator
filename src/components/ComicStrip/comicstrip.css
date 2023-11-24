@@ -31,3 +31,10 @@
     grid-template-rows: repeat(5, 250px);
   }
 } */
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(5, 200px);
+  }
+}
