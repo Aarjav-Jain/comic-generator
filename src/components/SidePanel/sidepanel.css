@@ -1,0 +1,33 @@
+.side {
+  flex: 1;
+  /* background-color: #b3b369; */
+  border-right: 1px #dfe3e3 solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #457b9d;
+}
+.btn {
+  height: 30px;
+  background-color: none;
+  /* margin-top: 10px; */
+  margin: 10px 10px;
+  background-color: #84a59d;
+  border: none;
+  color: white;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: #637b75;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 30px;
+  margin: 10px 0;
+  color: white;
+  font-family: "Lobster", sans-serif;
+}

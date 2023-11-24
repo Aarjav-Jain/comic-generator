@@ -1,0 +1,33 @@
+.comic {
+  flex: 3;
+  text-align: center;
+  /* height: 1000vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  flex-direction: column;
+  /* gap: 0px; */
+  background-color: #f1faee;
+}
+.heading {
+  /* font-family: "Comic Sans"; */
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #003049;
+}
+.grid {
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(5, 300px);
+  gap: 0px 0px;
+}
+
+/* @media only screen and (min-width: 870px) and (max-width: 960px) {
+  .grid {
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(5, 250px);
+  }
+} */
